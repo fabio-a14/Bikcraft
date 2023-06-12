@@ -48,6 +48,7 @@
 
 .font-2-xl {
   font: 500 2rem/1.25 "Roboto", sans-serif;
+  
 }
 
 .font-1-xxl {
@@ -72,4 +73,7 @@
   .font-2-xl {
     font-size: 1.5rem;
   }
-}
+ 
+  }
+  
+
