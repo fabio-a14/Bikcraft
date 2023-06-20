@@ -33,6 +33,8 @@
   color: var(--cor-p5);
   font: 600 1.125/"Popppins", sans-serif;
   max-width: max-content;
+  border: none;
+  cursor: pointer;
 }
 .botao.secundario {
   background: var(--cor-10);
