@@ -9,11 +9,10 @@ a {
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   padding-top: 20px;
   padding-bottom: 20px;
-
 }
 .header-menu {
   display: flex;
@@ -36,7 +35,7 @@ a {
   transition: 0.3s;
   position: absolute;
 }
-.header-menu a:hover:after {
+.header-menu a:hover:after,.header-menu a.ativo:after  {
   width: 100%;
 }
 @media (max-width: 800px) {
